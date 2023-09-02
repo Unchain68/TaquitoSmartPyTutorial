@@ -1,0 +1,36 @@
+{
+  "name": "taquitosmartpytutorial",
+  "version": "1.0.0",
+  "description": "a tutorial for taquito and SmartPy interaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --p tsconfig.json && tsc --p tsconfig.esm.json",
+    "clean": "rimraf ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unchain68/TaquitoSmartPyTutorial.git"
+  },
+  "keywords": [
+    "taquito",
+    "smartPy",
+    "Taquito",
+    "SmartPy",
+    "tutorial",
+    "smart contract"
+  ],
+  "author": "J.G from YourD",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Unchain68/TaquitoSmartPyTutorial/issues"
+  },
+  "homepage": "https://github.com/Unchain68/TaquitoSmartPyTutorial#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "rimraf": "^5.0.1",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
